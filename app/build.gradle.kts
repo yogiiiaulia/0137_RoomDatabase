@@ -49,7 +49,7 @@ dependencies {
     ksp(libs.room.compiler)
     //Viewmodel
     implementation(libs.lifecycle.viewmodel.compose)
-    implementation()
+    implementation(libs.lifecycle.runtime.compose)
     implementation(libs.androidx.compose.ui)
     implementation(libs.androidx.compose.ui.graphics)
     implementation(libs.androidx.compose.ui.tooling.preview)
